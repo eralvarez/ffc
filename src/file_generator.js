@@ -82,10 +82,10 @@ function walkDir(elementName, dirPath, folderStyle, destinationBasePath, flat) {
             let fileContent = fs.readFileSync(_file, 'utf8');
             fileContent = replaceByAllStyles(elementName, fileContent);
             fse.outputFileSync(finalFileName, fileContent);
-            console.log(_file);
-            console.log(fileDir);
-            console.log(finalFileName);
-            console.log(Array(30).join('-'));
+            // console.log(_file);
+            // console.log(fileDir);
+            // console.log(Array(30).join('-'));
+            console.log(`created: ${finalFileName}`);
         }
     }
 }
