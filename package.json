@@ -1,0 +1,33 @@
+{
+  "name": "ffc",
+  "version": "0.0.1",
+  "description": "Cli tool to generate new files based of projects best practices",
+  "main": "src/ffc.js",
+  "bin": "src/ffc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eralvarez/ffc.git"
+  },
+  "keywords": [
+    "CLI",
+    "tool",
+    "generate",
+    "new",
+    "files",
+    "best",
+    "practices"
+  ],
+  "author": "Erick Alvarez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eralvarez/ffc/issues"
+  },
+  "homepage": "https://github.com/eralvarez/ffc#readme",
+  "dependencies": {
+    "fs-extra": "~9.0.1",
+    "yargs": "~15.4.1"
+  }
+}
